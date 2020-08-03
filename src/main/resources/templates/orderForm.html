@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <tittle>Taco Cloud</tittle>
+        <link rel="stylesheet" th:href="@{/styles.css}"/>
+    </head>
+    
+    <body>
+        <form method="POST" th:action="@{/orders}" th:object="${order}">
+        
+        </form>
+    </body>
+</html>
